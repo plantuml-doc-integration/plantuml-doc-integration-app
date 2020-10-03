@@ -21,7 +21,7 @@ class HeaderBar extends React.Component {
 	}
 	render() {
 		return (
-			<header>
+			<header id="header">
 				<AppBar position="static">
 					<Toolbar>
 						<Tooltip title="Open Document">
