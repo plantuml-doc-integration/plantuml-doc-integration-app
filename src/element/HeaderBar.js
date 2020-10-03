@@ -14,7 +14,6 @@ class HeaderBar extends React.Component {
 		openOpenDocumentDialog: false
 	}
 	setOpenDocument(openDocument) {
-		console.log(openDocument);
 		this.setState({ openOpenDocumentDialog: false });
 		if (openDocument) {
 			this.props.history.push(`/docs/${openDocument}`);
